@@ -1,3 +1,5 @@
+#!/bin/bash
+
 apt update
 apt-get install lubuntu-core -y
 systemctl set-default graphical.target
@@ -12,4 +14,6 @@ cd lxde-icon-theme-0.5.1
 make install
 gtk-update-icon-cache -qf /usr/share/icons/nuoveXT2
 cd
+
+
 #sudo reboot
